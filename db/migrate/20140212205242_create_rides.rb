@@ -1,7 +1,7 @@
 class CreateRides < ActiveRecord::Migration
   def change
     create_table :rides do |t|
-      t.taxi_id :integer
+      t.integer :taxi_id
       t.timestamps null: false
     end
   end
